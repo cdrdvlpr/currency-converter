@@ -12,7 +12,7 @@ export default function CurrencyInput({
 
   useEffect(() => {
     fetch(
-      "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json"
+      "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.min.json"
     )
       .then((res) => res.json())
       .then((data) => {
