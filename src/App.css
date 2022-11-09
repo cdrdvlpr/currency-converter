@@ -1,24 +1,17 @@
 /* google font */
 @import url("http://fonts.googleapis.com/css?family=Quicksand:wght@200;400;800&family=VT323&display=swap");
 
-@font-face {
-  font-family: "PricedownBl-Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("PricedownBl-Regular"), url("pricedown bl.woff") format("woff");
-}
-
 /* custom scrollbar */
-/* ::-webkit-scrollbar {
-  width: 3px;
+::-webkit-scrollbar {
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 3px;
-  background: #13acf373;
+  border-radius: 5px;
+  background: #13f33173;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0296dabf;
-} */
+  background: #02da31bf;
+}
 
 /* general resets */
 * {
@@ -30,7 +23,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: Quicksand, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 2em;
   width: 100%;
   cursor: default;
@@ -105,7 +98,7 @@ footer {
   font-size: 12.5px;
   width: 100%;
   background: #adffb375;
-  padding: 2.5px 0;
+  padding: 5px 0;
   font-weight: bold;
 }
 
