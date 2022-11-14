@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer>
-      Copyright &copy; 2020-{now.getFullYear()}. Ges, All rights reserved.
+      Copyright &copy; 2020-{now.getFullYear()}. Mahmoud Kebbeh, All rights reserved.
     </footer>
   );
 }
